@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "displayName": "Mikha's Theme",
+    "description": "filler description",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mikha's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mikha's Theme-color-theme.json"
+            }
+        ]
+    }
+}
