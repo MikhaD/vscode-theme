@@ -1,13 +1,151 @@
-//https://youtu.be/3Ju74i1MyBg
-//https://css-tricks.com/creating-a-vs-code-theme/
 {
 	"name": "Mikha's Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#050505",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+        "focusBorder": "#00000000",
+        "foreground": "#d0d0d0",
+        "selection.background": "#ffffff2a",
+        "button.background": "#83169b",
+
+        "dropdown.background": "#181818",
+        "dropdown.listBackground": "#181818",
+
+        "input.background": "#060605",
+        "inputOption.activeBorder": "#d0d0d0",
+
+        "scrollbar.shadow": "#83169b",
+        "scrollbarSlider.background": "#ffffff10",
+        "scrollbarSlider.hoverBackground": "#ffffff1a",
+        "scrollbarSlider.activeBackground": "#ffffff1a",
+
+        "badge.background": "#ffffff2a",
+        "progressBar.background": "#83169b",
+
+        "list.activeSelectionBackground": "#ffffff2a",
+        "list.dropBackground": "#ffffff2a",
+        "list.hoverBackground": "#ffffff1a",
+        "list.inactiveSelectionBackground": "#ffffff1a",
+        "listFilterWidget.background": "#060605",
+
+        "activityBar.background": "#242424",
+        "activityBar.dropBackground": "#ffffff2a",
+        "activityBarBadge.background": "#83169b",
+
+        "sideBar.background": "#181818",
+        "sideBar.dropBackground": "#ffffff2a",
+        "sideBarSectionHeader.background": "#242424",
+
+        "editorGroup.dropBackground": "#ffffff2a",
+        "editorGroupHeader.noTabsBackground": "#181818",
+        "editorGroupHeader.tabsBackground": "#181818",
+        "editorGroup.emptyBackground": "#181818",
+
+        "tab.activeBackground": "#ffffff2a",
+        "tab.border": "#181818",
+        "tab.activeBorderTop": "#ffffff2a",
+        "tab.inactiveBackground": "#242424",
+        "tab.hoverBackground": "#ffffff1a",
+
+        // Not sure about the 05 at the end. Might be better to keep it gray
+        "editor.background": "#060605",
+        "editor.foreground": "#d0d0d0",
+        "editor.selectionBackground": "#ffffff2a",
+        "editor.inactiveSelectionBackground": "#ffffff2a",
+        "editor.selectionHighlightBackground": "#70500070",
+        // Not sure what these two do, but theu seem like something that should be set, so I will set them when I find out what they are.
+        "editor.wordHighlightBackground": "#f0f",
+        "editor.wordHighlightStrongBackground": "#f0f",
+        
+        "editor.findMatchBackground": "#7070707a",
+        "editor.findMatchHighlightBackground": "#70500070",
+        "editor.findRangeHighlightBackground": "#ffffff1a",
+        // Shade of purple?
+        "editor.hoverHighlightBackground": "#659cee48",
+        "editor.lineHighlightBorder": "#ffffff2a",
+        "editor.rangeHighlightBackground": "#ffffff1a",
+        "editorIndentGuide.background": "#181818",
+        "editorIndentGuide.activeBackground": "#505050",
+        "editorRuler.foreground": "#242424",
+        "editorCodeLens.foreground": "#181818",
+        "editorBracketMatch.background": "#1f971f59",
+        "editorBracketMatch.border": "#00000000",
+
+        "editorOverviewRuler.border": "#ffffff2a",
+        "editorOverviewRuler.findMatchForeground": "#70500070",
+        "editorOverviewRuler.rangeHighlightForeground": "#ffffff1a",
+        "editorOverviewRuler.modifiedForeground": "#fbff052a",
+        "editorOverviewRuler.addedForeground": "#14f30c2a",
+        "editorOverviewRuler.deletedForeground": "#fa21212a",
+        "editorOverviewRuler.bracketMatchForeground": "#07f50777",
+        "editorOverviewRuler.errorForeground": "#f00",
+        "editorOverviewRuler.warningForeground": "#ff7300",
+        "editorOverviewRuler.infoForeground": "#00ffb3",
+
+        "editorError.foreground": "#f00",
+        "editorWarning.foreground": "#ff7300",
+        "editorInfo.foreground": "#00ffb3",
+        //Trying these two to find out what they do
+        // "editorUnnecessaryCode.border": "#f0f",
+        "editorUnnecessaryCode.opacity": "#000000c0",
+
+        "editorGutter.background": "#0c0c0b",
+        "editorGutter.addedBackground": "#0a6b07",
+        "editorGutter.deletedBackground": "#c00606",
+        "editorGutter.modifiedBackground": "#ffc400",
+
+        "diffEditor.insertedTextBackground": "#0edf072a",
+        "diffEditor.removedTextBackground": "#ff00002a",
+        
+        "editorWidget.background": "#181818",
+        // potentially incongruous
+        "editorWidget.border": "#ffffff2a",
+        "editorSuggestWidget.background": "#181818",
+        "editorSuggestWidget.border": "#00000000",
+        "editorSuggestWidget.highlightForeground": "#83169b",
+        "editorSuggestWidget.selectedBackground": "#ffffff1a",
+        "editorHoverWidget.background": "#181818",
+        // If this is on the seperator lines on the scopes widget dissapear too
+        // "editorHoverWidget.border": "#00000000",
+        "debugExceptionWidget.background": "#181818",
+        "debugExceptionWidget.border": "#00000000",
+
+        "editorMarkerNavigation.background": "#181818",
+
+        "peekView.border": "#83169b",
+        "peekViewEditor.background": "#0c0c0b",
+        "peekViewEditorGutter.background": "#131312",
+        "peekViewEditor.matchHighlightBackground": "#70500070",
+        "peekViewResult.background": "#1e1e1e",
+        "peekViewResult.matchHighlightBackground": "#70500070",
+        "peekViewResult.selectionBackground": "#ffffff1a",
+        "peekViewTitle.background": "#1e1e1e",
+
+        "panel.background": "#020202",
+        "panel.border": "#ffffff2a",
+        "panel.dropBackground": "#ffffff2a",
+        "panelTitle.activeBorder": "#ffffff2a",
+
+        "statusBar.background": "#83169b",
+        "statusBar.debuggingBackground": "#2f1152",
+        "statusBar.noFolderBackground": "#d400ff",
+        "statusBarItem.activeBackground": "#ffffff3a",
+        "statusBarItem.hoverBackground": "#ffffff2a",
+
+        "titleBar.activeBackground": "#3d3d3d",
+        "titleBar.inactiveBackground": "#9d9d9d",
+        "titleBar.inactiveForeground": "#000000",
+        "menubar.selectionBackground": "#ffffff1a",
+        // not decided between 181818 and 242424
+        "menu.background": "#242424",
+        "menu.selectionBackground": "#ffffff1a",
+        "menu.separatorBackground": "#ffffff2a",
+
+        "notificationCenterHeader.background": "#242424",
+        "notifications.background": "#181818",
+        "notifications.border": "#242424",
+        "debugToolBar.background": "#242424",
+        
+        "breadcrumb.background": "#0c0c0b"
 	},
 	"tokenColors": [
 		{
@@ -17,8 +155,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#69b954"
 			}
 		},
 		{
@@ -28,7 +165,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -37,7 +174,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -54,18 +191,18 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
+				"keyword.control",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
-				"fontStyle": "",
+				"fontStyle": "bold",
 				"foreground": "#8080ff"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -94,16 +231,25 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
+				"variable.function"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"fontStyle": "bold",
+				"foreground": "#80ffff"
+			}
+		},
+		{
+			"name": "Special Method",
+			"scope": [
+				"meta.function-call",
+				"keyword.other.special-method",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#aaffff"
 			}
 		},
 		{
