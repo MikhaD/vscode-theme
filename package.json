@@ -1,10 +1,12 @@
 {
-    "name": "test",
-    "displayName": "Mikha's Theme",
-    "description": "filler description",
-    "version": "0.0.1",
+    "name": "mikhad-dark",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "0.0.0",
+    "publisher": "MikhaD",
+    "license": "GPL-3.0",
     "engines": {
-        "vscode": "^1.34.0"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
@@ -12,10 +14,15 @@
     "contributes": {
         "themes": [
             {
-                "label": "Mikha's Theme",
+                "id": "%themeLabel%",
+                "label": "%themeLabel%",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Mikha's Theme-color-theme.json"
+                "path": "./themes/mikhad-dark-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MikhaD/vscode-theme.git"
     }
 }
